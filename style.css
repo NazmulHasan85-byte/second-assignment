@@ -1,0 +1,140 @@
+body{
+    margin: 0%;
+    background-color: rgb(245, 233, 233);
+}
+.first-continer{
+     background-color:rgba(9, 55, 153, 0.973) ;
+}
+
+
+/* Heading-section */
+.headings  li{
+    list-style: none;
+    font-weight: 700;
+    margin: 25px;
+    color:white;
+     
+}
+.headings .first-list{
+    margin-left: 150px;
+
+}
+.headings{
+    display: flex;
+    max-width:  auto;
+    height: 70px;
+  
+}
+.headings .first-btn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 500px;
+    background-color: rgb(226, 23, 216);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/* Second-Heading */
+.headings-pic{
+    display: flex;
+   max-width:  auto;
+    height: 500px; 
+}
+.write h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-left: 160px;
+    color: white;
+}
+.write .second-btn {
+    margin-left: 160px;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(226, 23, 216) ;
+    margin-top: 20px;
+
+    
+}
+.bannar-img{
+    width: 50%;
+}
+.write{
+    width: 50%;
+}
+.bannar-img img{
+    width: 65%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+ /* ------------
+ Main Work
+ -------------- */
+ .player-name {
+     width: 300px;
+     height: 400px;
+     margin-bottom: 100px;
+     background-color: white;
+     box-shadow: 5px 5px 10px rgb(100, 97, 97);      
+ }
+ .player-name img{
+     width: 90%;
+     height: 200px;
+     padding: 1em;
+ }
+ .second-continer{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+ }
+.first-player{
+    margin-left: 150px;
+}
+.player-name{
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.newclass{
+    margin-left: 70px;
+}
+.player-name h1 {
+    margin-left: 10px;
+    padding-top: -5px;
+}
+.player-name p{
+    margin-left: 10px;
+    align-items:;
+}
+/* Third-section */
+.third-continer{
+    display: flex;
+}
+.higlight-img{
+    width: 60%;
+}
+.higlight{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 50px ;
+    font-size: 30px;
+    font-weight: 900;
+}
+.higlight p{
+    font-size: 20px;
+    font-weight: normal;
+
+}
+.higlight-img img{
+    width: 80%;
+    margin-left: %;
+}
+.higlight a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px;
+    background-color:rgb(226, 23, 216) ;
+    color: white;
+    
+}
