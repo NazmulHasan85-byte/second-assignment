@@ -22,7 +22,7 @@ body{
 .headings{
     display: flex;
     max-width:  auto;
-    height: 70px;
+    height: 90px;
   
 }
 .headings .first-btn{
@@ -31,9 +31,21 @@ body{
     margin-left: 500px;
     background-color: rgb(226, 23, 216);
     color: white;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;  
+    
 }
+ .headings .first-btn img{   
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+    width: 50%;
+}
+span{
+    padding-bottom: 30px;
+}
+
+
+
 /* Second-Heading */
 .headings-pic{
     display: flex;
@@ -124,7 +136,7 @@ body{
     font-weight: normal;
 
 }
-.higlight-img img{
+.higlight-img  img{
     width: 80%;
     margin-left: %;
 }
@@ -137,4 +149,25 @@ body{
     background-color:rgb(226, 23, 216) ;
     color: white;
     
+}
+.football-img{
+    width: 300px;
+    height: 250px;
+    margin-top: 80px;
+    margin-left: 40%;
+}
+.football-img img{
+    width: 100%;
+}
+/* footer-side */
+
+.icon-add{    
+    margin-left: 500px;   
+
+}
+.images-icon{
+    margin-left: 20px;
+}
+.last-para{
+    margin-left: 700px;
 }
