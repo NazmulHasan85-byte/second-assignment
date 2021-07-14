@@ -149,16 +149,23 @@ body{
 }
 /* footer-side */
 
-.icon-add{    
-    margin-left: 500px;   
-
+.last-icon{
+    margin-left: 35%;
+    margin-top: -50px;
 }
 .images-icon{
-    margin-left: 20px;
+    margin-right: 30px;
 }
 .last-para{
-    margin-left: 700px;
+    margin-left: 45%;
+    margin-top: 30px;
 }
+.last-para img {
+    width: 15px;
+    height: 15px;
+}
+
+
 /* Responsive-site */
 @media only screen and (max-width:468px) {
     body{
@@ -245,15 +252,25 @@ body{
        display: flex;
      
    }
-   .last-icon .images-icon{
-       width: 100%;
+   .last-icon {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
       
    }
-   .images-icon{
-       margin-left: 5%;
-       margin-top: -30px;
-       
+   .last-icon img{
+       width: 40px;
+       height: 40px;
    }
+   .images-icon{
+      margin: 35px;
+       margin-top: -30px;   
+   }
+   .icon-add{
+       margin-left: 5%;
+       margin-right: 100px;
+   }
+   .first-sorce{
+       padding-left: -150px;
    .last-para{
        width: 100%;
        margin-left:45px;
