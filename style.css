@@ -35,16 +35,6 @@ body{
     padding-right: 20px;  
     
 }
- .headings .first-btn img{   
-     display: grid;
-     grid-template-columns: repeat(1, 1fr);
-    width: 50%;
-}
-span{
-    padding-bottom: 30px;
-}
-
-
 
 /* Second-Heading */
 .headings-pic{
@@ -96,19 +86,14 @@ span{
      padding: 1em;
  }
  .second-continer{
-     display: grid;
-     grid-template-columns: repeat(3,1fr);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     justify-content: center;
+     align-items: center;
+     margin-left: 100px;
+     margin-top: 50px;
  }
-.first-player{
-    margin-left: 150px;
-}
-.player-name{
-    margin-right: 50px;
-    margin-top: 50px;
-}
-.newclass{
-    margin-left: 70px;
-}
+
 .player-name h1 {
     margin-left: 10px;
     padding-top: -5px;
@@ -172,79 +157,84 @@ span{
     margin-left: 700px;
 }
 /* Responsive-site */
-@media only screen and (max-width:668px) {
-    body{
-        width: 100%;
-    }
-    .headings{
-        display: flex;
-        flex-direction: column;
-    }
-    .headings .first-list{
-        margin-left: 25px;
-    }
-    .headings-pic{
-        display: flex;
-        flex-direction: column;
-    }
-    .first-btn{
-        visibility: hidden;
-        /* margin-left: 10px; */
-    }
-    .headings-pic .write{
-        margin-top: -110px;
-        margin-left: 20px;
-    }
-    .headings-pic .bannar-img{
-        margin: 10px;
-        margin-left: 20px;
-    }
-    .second-continer{
+@media only screen and (max-width:468px) {
+.headings-pic{
+    display: flex;
+    flex-direction: column;
+}
+.write{
+    width: 100%;
+}
+.write h1 {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.write .second-btn{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.bannar-img{
+    width: 100%;
+}
+.bannar-img img{
+    width: 70%;
+    margin-left: 5%;
+}
+
+   .second-continer{
+       margin-top: 150px;
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+
+   }
+   .third-continer{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+   .higlight{
+       width: 100%;           
+   }
+   .higlight h1{
+       text-align: left;
+   }
+   .higlight-img{
+       width: 100%;
+   }
+   .higlight-img img{
+       margin-top: 50px;
+       width: 90%;
+      margin-left:10%;
+   }
+   .football-img{
+       width: 100%;
+   }
+   .football-img img{
+       margin-left: -150px;
+   }
+   .last-icon{
+       width: 100%;
+       display: flex;
+     
+   }
+   .last-icon .images-icon{
+       width: 10%;
+      
+   }
+   .images-icon{
+       margin-left: 15%;
+       margin-top: -30px;
        
-    }
-    .player-name{
-        margin-right: 100px;
-    }
-    .newclass{
-       margin-left: 140px;
-    }
-    .thirdplayer{
-        margin-left: 150px;
-        margin-top: 20px;
-    }
-    .third-continer{
-        display: flex;
-        flex-direction: column;
-    }
-    .higlight-img{
-        width: 100%;
-        margin-top: 30px;
-        justify-content: center;
-        margin-left: 130px;
-    }
-    .higlight{
-        margin-left: 170px;
-        text-align: justify;
-    }
-    .football-img{
-        justify-content: center;
-    }
-    .last-icon{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        margin-left: 180px;
-    }
-    .images-icon{
-        margin-top:20px;
-    }
-    .icon-add{
-        margin-top:-100px;
-    }
-    .last-para{
-        margin-left: 150px;
-    }
+   }
+   .last-para{
+       width: 100%;
+       margin-left: 70px;
+       margin-top: 50px;
+   }
+ 
+   
+
 
  
 }
