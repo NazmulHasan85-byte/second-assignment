@@ -227,6 +227,9 @@ body{
    .football-img{
        width: 100%;
    }
+   .player-name{
+       margin-top: 50px;
+   }
    .football-img img{
        margin-left: -150px;
        background-color: white;
@@ -250,9 +253,5 @@ body{
        margin-left:45px;
        margin-top: 50px;
    }
- 
-   
-
-
- 
+    
 }
